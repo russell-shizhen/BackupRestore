@@ -9,20 +9,22 @@
 
 1. Add your Google Account, e.g. `shizhen.sg@gmail.com` to your device.
 2. Select the Google Account `shizhen.sg@gmail.com` as backup account inside device backup settings. Usually, it is under **Settings** -> **System** -> **Backup** -> **Account**.
-3. Remember to turn on Back up to Google Drive. See below screenshot
+3. Remember to turn on **Back up to Google Drive**. See below screenshot
 
     ![Backup Settings on Device](https://raw.githubusercontent.com/russell-shizhen/BackupRestore/master/images/Screenshot%20(Sep%2012%2C%202019%202_07_09%20PM).png)
 
 ## Turn on Android app `allowBackup` attribute
 
-- Set `android:allowBackup="true"` inside `AndroidManifest.xml`.
+Set `android:allowBackup="true"` inside `AndroidManifest.xml`. See below screenshot:
+
+![android:allowBackup="true"](https://raw.githubusercontent.com/russell-shizhen/BackupRestore/master/images/Screenshot%202019-09-12%20at%203.17.22%20PM.png)
 
 ## Test flows
 
-1. Install ![BackupRestore.apk]().
-2. Open the app and modify the two `EditText` field, click on button SAVE. E.g.
+1. Install [BackupRestore.apk](https://github.com/russell-shizhen/BackupRestore/blob/master/BackupRestore.apk).
+2. Open the app and modify the two `EditText` fields, click on button **SAVE**. E.g.
 
-   ![Screenshot](https://raw.githubusercontent.com/russell-shizhen/BackupRestore/master/images/Screenshot%20(Sep%2012%2C%202019%202_07_09%20PM).png).
+   ![Screenshot](https://raw.githubusercontent.com/russell-shizhen/BackupRestore/master/images/Screenshot_20190912-152241.png).
 
 3. Verify that the shared preferance already saved correctly. E.g.
 
@@ -39,6 +41,8 @@
       com.google.android.gms/.backup.migrate.service.D2dTransport
     * com.google.android.gms/.backup.BackupTransportService
     ```
+
+    Run the **backupnow** command
 
     ```bash
     #On Android 7.0 or later
@@ -61,7 +65,7 @@
 
     Clear the app storage first.
 
-    ![Screenshot](https://raw.githubusercontent.com/russell-shizhen/BackupRestore/master/images/Screenshot%20(Sep%2012%2C%202019%202_47_20%20PM).png).
+    ![Screenshot](https://raw.githubusercontent.com/russell-shizhen/BackupRestore/master/images/Screenshot%20(Sep%2012%2C%202019%202_47_20%20PM).png)
 
     Check the token name of the dataset to retore using below command
 
