@@ -251,9 +251,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="100" y="64" width="1772" height="1016" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.25202313" />
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.25202313" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -268,7 +267,7 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Android Profiler" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.27968922" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.27968922" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32963374" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" weight="0.46936417" />
